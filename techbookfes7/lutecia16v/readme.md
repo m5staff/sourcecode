@@ -2,7 +2,7 @@
 
 |プロジェクト名|内容|
 |---|---|
-|M5StickBlePeripheral|M5Stickで動作させるペリヘラル側のソース|
+|M5StickBlePeripheral|M5Stickで動作させるペリフェラル側のソース|
 |M5StackBleCentral|M5Stackで動作させるセントラル側のソース|
 
 # 使用方法
