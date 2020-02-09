@@ -85,8 +85,6 @@ def ESPconnectAP(SSID, PASS):
     if sendCheckReply('AT+CWMODE=1', 'OK') != True:
         return False
 
-    #  if (! (strstr(replybuffer, "OK") || strstr(replybuffer, "no change")) )
-
     connectStr = 'AT+CWJAP=\"'
     connectStr += SSID
     connectStr += '\",\"'
@@ -137,7 +135,6 @@ def GETpage(host, port, page):
     cmdStr = 'AT+CIPSEND=' + str(len(httpPacket))
     sendCheckReply(cmdStr, '>')
 
-#    cmdStr = 'GET /testwifi/index.html HTTP/1.1\r\nHost: wifitest.adafruit.com\r\n\r\n'
     cmdStr = httpPacket
     sendCheckReply(cmdStr, 'SEND OK')
 
