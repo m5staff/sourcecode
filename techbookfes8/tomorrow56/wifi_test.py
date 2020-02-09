@@ -21,7 +21,6 @@ echo_write = True
 
 def read_print(read_str):
     if echo_read:
-#        print(read_str.replace('\r\n', ''))
         print(read_str.replace('\r\n', '\n'))
 
 def sendCheckReply(command, reply):
