@@ -16,8 +16,8 @@ WEBPAGE = "/testwifi/index.html"
 PORT = "80"
 
 
-echo_read = True
-echo_write = True
+echo_read = False
+echo_write = False
 
 def read_print(read_str):
     if echo_read:
